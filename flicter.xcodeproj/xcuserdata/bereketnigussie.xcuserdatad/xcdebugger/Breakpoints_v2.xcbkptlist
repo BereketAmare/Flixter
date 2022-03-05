@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "05B44E62-EAC5-4D55-8C5E-FB750A69E41C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4951EA21-553C-426C-A877-269BE54033CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flicter/MovieCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "MovieCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4951EA21-553C-426C-A877-269BE54033CC - 14f421dca15dc802"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flicter.MovieCell.posterView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "flicter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bereketnigussie/Desktop/flicter/flicter/MovieCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "4951EA21-553C-426C-A877-269BE54033CC - 257e208900c59dbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flicter.MovieCell.posterView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "flicter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bereketnigussie/Desktop/flicter/flicter/MovieCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "4951EA21-553C-426C-A877-269BE54033CC - 420ac2c5f1ec491"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flicter.MovieCell.posterView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "flicter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bereketnigussie/Desktop/flicter/flicter/MovieCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "4951EA21-553C-426C-A877-269BE54033CC - d1abd064c21c4daa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flicter.MovieCell.posterView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "flicter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bereketnigussie/Desktop/flicter/flicter/MovieCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "4951EA21-553C-426C-A877-269BE54033CC - 7a0c7d3ecdbb7c9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flicter.MovieCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; flicter.MovieCell"
+                  moduleName = "flicter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bereketnigussie/Desktop/flicter/flicter/MovieCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "4951EA21-553C-426C-A877-269BE54033CC - 8c9764b73aa06163"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flicter.MovieCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;flicter.MovieCell&gt;"
+                  moduleName = "flicter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bereketnigussie/Desktop/flicter/flicter/MovieCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

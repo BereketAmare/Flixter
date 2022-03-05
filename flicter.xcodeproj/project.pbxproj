@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		620F497827D28F26002A5A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F497727D28F26002A5A1E /* AppDelegate.swift */; };
+		620F497A27D28F26002A5A1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F497927D28F26002A5A1E /* SceneDelegate.swift */; };
+		620F497C27D28F26002A5A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F497B27D28F26002A5A1E /* ViewController.swift */; };
+		620F497F27D28F26002A5A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620F497D27D28F26002A5A1E /* Main.storyboard */; };
+		620F498127D28F2A002A5A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620F498027D28F2A002A5A1E /* Assets.xcassets */; };
+		620F498427D28F2A002A5A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620F498227D28F2A002A5A1E /* LaunchScreen.storyboard */; };
+		620F498F27D28F2B002A5A1E /* flicterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F498E27D28F2B002A5A1E /* flicterTests.swift */; };
+		620F499927D28F2B002A5A1E /* flicterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F499827D28F2B002A5A1E /* flicterUITests.swift */; };
+		620F499B27D28F2B002A5A1E /* flicterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F499A27D28F2B002A5A1E /* flicterUITestsLaunchTests.swift */; };
+		620F49A827D29200002A5A1E /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F49A727D29200002A5A1E /* MoviesViewController.swift */; };
+		620F49AE27D2CF5F002A5A1E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F49AD27D2CF5F002A5A1E /* MovieCell.swift */; };
+		62D260DB27D3CC4B00B22350 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 62D260DA27D3CC4B00B22350 /* AlamofireImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		620F498B27D28F2B002A5A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 620F496C27D28F26002A5A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620F497327D28F26002A5A1E;
+			remoteInfo = flicter;
+		};
+		620F499527D28F2B002A5A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 620F496C27D28F26002A5A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620F497327D28F26002A5A1E;
+			remoteInfo = flicter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		620F497427D28F26002A5A1E /* flicter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flicter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		620F497727D28F26002A5A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		620F497927D28F26002A5A1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		620F497B27D28F26002A5A1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		620F497E27D28F26002A5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		620F498027D28F2A002A5A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		620F498327D28F2A002A5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		620F498527D28F2A002A5A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620F498A27D28F2B002A5A1E /* flicterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flicterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		620F498E27D28F2B002A5A1E /* flicterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flicterTests.swift; sourceTree = "<group>"; };
+		620F499427D28F2B002A5A1E /* flicterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flicterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		620F499827D28F2B002A5A1E /* flicterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flicterUITests.swift; sourceTree = "<group>"; };
+		620F499A27D28F2B002A5A1E /* flicterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flicterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		620F49A727D29200002A5A1E /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		620F49AD27D2CF5F002A5A1E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		620F497127D28F26002A5A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D260DB27D3CC4B00B22350 /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620F498727D28F2B002A5A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620F499127D28F2B002A5A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		620F496B27D28F26002A5A1E = {
+			isa = PBXGroup;
+			children = (
+				620F497627D28F26002A5A1E /* flicter */,
+				620F498D27D28F2B002A5A1E /* flicterTests */,
+				620F499727D28F2B002A5A1E /* flicterUITests */,
+				620F497527D28F26002A5A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		620F497527D28F26002A5A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				620F497427D28F26002A5A1E /* flicter.app */,
+				620F498A27D28F2B002A5A1E /* flicterTests.xctest */,
+				620F499427D28F2B002A5A1E /* flicterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		620F497627D28F26002A5A1E /* flicter */ = {
+			isa = PBXGroup;
+			children = (
+				620F497727D28F26002A5A1E /* AppDelegate.swift */,
+				620F497927D28F26002A5A1E /* SceneDelegate.swift */,
+				620F497B27D28F26002A5A1E /* ViewController.swift */,
+				620F497D27D28F26002A5A1E /* Main.storyboard */,
+				620F498027D28F2A002A5A1E /* Assets.xcassets */,
+				620F498227D28F2A002A5A1E /* LaunchScreen.storyboard */,
+				620F498527D28F2A002A5A1E /* Info.plist */,
+				620F49A727D29200002A5A1E /* MoviesViewController.swift */,
+				620F49AD27D2CF5F002A5A1E /* MovieCell.swift */,
+			);
+			path = flicter;
+			sourceTree = "<group>";
+		};
+		620F498D27D28F2B002A5A1E /* flicterTests */ = {
+			isa = PBXGroup;
+			children = (
+				620F498E27D28F2B002A5A1E /* flicterTests.swift */,
+			);
+			path = flicterTests;
+			sourceTree = "<group>";
+		};
+		620F499727D28F2B002A5A1E /* flicterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				620F499827D28F2B002A5A1E /* flicterUITests.swift */,
+				620F499A27D28F2B002A5A1E /* flicterUITestsLaunchTests.swift */,
+			);
+			path = flicterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		620F497327D28F26002A5A1E /* flicter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620F499E27D28F2B002A5A1E /* Build configuration list for PBXNativeTarget "flicter" */;
+			buildPhases = (
+				620F497027D28F26002A5A1E /* Sources */,
+				620F497127D28F26002A5A1E /* Frameworks */,
+				620F497227D28F26002A5A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flicter;
+			packageProductDependencies = (
+				62D260DA27D3CC4B00B22350 /* AlamofireImage */,
+			);
+			productName = flicter;
+			productReference = 620F497427D28F26002A5A1E /* flicter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		620F498927D28F2B002A5A1E /* flicterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620F49A127D28F2B002A5A1E /* Build configuration list for PBXNativeTarget "flicterTests" */;
+			buildPhases = (
+				620F498627D28F2B002A5A1E /* Sources */,
+				620F498727D28F2B002A5A1E /* Frameworks */,
+				620F498827D28F2B002A5A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				620F498C27D28F2B002A5A1E /* PBXTargetDependency */,
+			);
+			name = flicterTests;
+			productName = flicterTests;
+			productReference = 620F498A27D28F2B002A5A1E /* flicterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		620F499327D28F2B002A5A1E /* flicterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620F49A427D28F2B002A5A1E /* Build configuration list for PBXNativeTarget "flicterUITests" */;
+			buildPhases = (
+				620F499027D28F2B002A5A1E /* Sources */,
+				620F499127D28F2B002A5A1E /* Frameworks */,
+				620F499227D28F2B002A5A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				620F499627D28F2B002A5A1E /* PBXTargetDependency */,
+			);
+			name = flicterUITests;
+			productName = flicterUITests;
+			productReference = 620F499427D28F2B002A5A1E /* flicterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		620F496C27D28F26002A5A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					620F497327D28F26002A5A1E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					620F498927D28F2B002A5A1E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 620F497327D28F26002A5A1E;
+					};
+					620F499327D28F2B002A5A1E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 620F497327D28F26002A5A1E;
+					};
+				};
+			};
+			buildConfigurationList = 620F496F27D28F26002A5A1E /* Build configuration list for PBXProject "flicter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 620F496B27D28F26002A5A1E;
+			packageReferences = (
+				62D260D927D3CC4B00B22350 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
+			productRefGroup = 620F497527D28F26002A5A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				620F497327D28F26002A5A1E /* flicter */,
+				620F498927D28F2B002A5A1E /* flicterTests */,
+				620F499327D28F2B002A5A1E /* flicterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		620F497227D28F26002A5A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620F498427D28F2A002A5A1E /* LaunchScreen.storyboard in Resources */,
+				620F498127D28F2A002A5A1E /* Assets.xcassets in Resources */,
+				620F497F27D28F26002A5A1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620F498827D28F2B002A5A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620F499227D28F2B002A5A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		620F497027D28F26002A5A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620F497C27D28F26002A5A1E /* ViewController.swift in Sources */,
+				620F497827D28F26002A5A1E /* AppDelegate.swift in Sources */,
+				620F497A27D28F26002A5A1E /* SceneDelegate.swift in Sources */,
+				620F49AE27D2CF5F002A5A1E /* MovieCell.swift in Sources */,
+				620F49A827D29200002A5A1E /* MoviesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620F498627D28F2B002A5A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620F498F27D28F2B002A5A1E /* flicterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620F499027D28F2B002A5A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620F499B27D28F2B002A5A1E /* flicterUITestsLaunchTests.swift in Sources */,
+				620F499927D28F2B002A5A1E /* flicterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		620F498C27D28F2B002A5A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620F497327D28F26002A5A1E /* flicter */;
+			targetProxy = 620F498B27D28F2B002A5A1E /* PBXContainerItemProxy */;
+		};
+		620F499627D28F2B002A5A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620F497327D28F26002A5A1E /* flicter */;
+			targetProxy = 620F499527D28F2B002A5A1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		620F497D27D28F26002A5A1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620F497E27D28F26002A5A1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		620F498227D28F2A002A5A1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620F498327D28F2A002A5A1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		620F499C27D28F2B002A5A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		620F499D27D28F2B002A5A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		620F499F27D28F2B002A5A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM45NC22K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = flicter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Flixter;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bereket-nigussie.flicter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		620F49A027D28F2B002A5A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM45NC22K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = flicter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Flixter;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bereket-nigussie.flicter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		620F49A227D28F2B002A5A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM45NC22K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bereket-nigussie.flicterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flicter.app/flicter";
+			};
+			name = Debug;
+		};
+		620F49A327D28F2B002A5A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM45NC22K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bereket-nigussie.flicterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flicter.app/flicter";
+			};
+			name = Release;
+		};
+		620F49A527D28F2B002A5A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM45NC22K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bereket-nigussie.flicterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flicter;
+			};
+			name = Debug;
+		};
+		620F49A627D28F2B002A5A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM45NC22K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bereket-nigussie.flicterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flicter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		620F496F27D28F26002A5A1E /* Build configuration list for PBXProject "flicter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620F499C27D28F2B002A5A1E /* Debug */,
+				620F499D27D28F2B002A5A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620F499E27D28F2B002A5A1E /* Build configuration list for PBXNativeTarget "flicter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620F499F27D28F2B002A5A1E /* Debug */,
+				620F49A027D28F2B002A5A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620F49A127D28F2B002A5A1E /* Build configuration list for PBXNativeTarget "flicterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620F49A227D28F2B002A5A1E /* Debug */,
+				620F49A327D28F2B002A5A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620F49A427D28F2B002A5A1E /* Build configuration list for PBXNativeTarget "flicterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620F49A527D28F2B002A5A1E /* Debug */,
+				620F49A627D28F2B002A5A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62D260D927D3CC4B00B22350 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62D260DA27D3CC4B00B22350 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62D260D927D3CC4B00B22350 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 620F496C27D28F26002A5A1E /* Project object */;
+}
